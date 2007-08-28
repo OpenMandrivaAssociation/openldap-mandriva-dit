@@ -3,7 +3,7 @@
 
 Name: openldap-mandriva-dit
 Summary: Sample DIT for OpenLDAP
-Version: 0.16
+Version: 0.17
 Release: %mkrel 1
 License: GPL
 Group: System/Servers
