@@ -19,6 +19,7 @@ Source7: README.dhcp.mandriva.dit
 Source8: README.sudo.mandriva.dit
 Source9: README.samba.mandriva.dit
 Source10: TODO.mandriva.dit
+Source14: README.heimdal.mandriva.dit
 Requires: openldap-servers >= 2.3
 Requires: openldap-clients
 # For when we have the schemas splitted off of openldap-servers
@@ -48,6 +49,7 @@ install -m 0644 %{_sourcedir}/README.dns.mandriva.dit README.dns
 install -m 0644 %{_sourcedir}/README.samba.mandriva.dit README.samba
 install -m 0644 %{_sourcedir}/README.dhcp.mandriva.dit README.dhcp
 install -m 0644 %{_sourcedir}/README.sudo.mandriva.dit README.sudo
+install -m 0644 %{_sourcedir}/README.heimdal.mandriva.dit README.heimdal
 install -m 0644 %{_sourcedir}/TODO.mandriva.dit TODO
 
 # http://qa.mandriva.com/show_bug.cgi?id=23381
@@ -59,8 +61,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root)
-%doc README LICENSE README.dns README.samba
-%doc README.dhcp README.sudo TODO
+%doc README* LICENSE TODO
 %{_datadir}/openldap/scripts/mandriva-dit-setup.sh
 %{_datadir}/openldap/mandriva-dit
 
