@@ -25,6 +25,7 @@ Requires: openldap-clients
 # For when we have the schemas splitted off of openldap-servers
 #Requires: openldap-extra-schemas
 URL: http://qa.mandriva.com/twiki/bin/view/Main/OpenldapDit
+BuildRoot: %{_tmppath}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This package contains a template LDIF file, access control rules and a simple
