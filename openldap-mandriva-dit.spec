@@ -4,10 +4,10 @@
 Name: openldap-mandriva-dit
 Summary: Sample DIT for OpenLDAP
 Version: 0.18
-Release: %mkrel 2
-License: GPL
+Release: %mkrel 3
+License: GPLv2+
 Group: System/Servers
-# Source at http://svn.mandriva.com/cgi-bin/viewvc.cgi/mdv/corporate/cs4/devel/openldap-mandriva-dit/current/
+# Source at http://svn.mandriva.com/cgi-bin/viewvc.cgi/packages/cooker/openldap-mandriva-dit/current/
 Source0: mandriva-dit-base-template.ldif
 Source1: mandriva-dit-access-template.conf
 Source2: mandriva-dit-setup.sh
