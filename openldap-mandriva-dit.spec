@@ -24,7 +24,7 @@ Requires: openldap-servers >= 2.3
 Requires: openldap-clients
 # For when we have the schemas splitted off of openldap-servers
 #Requires: openldap-extra-schemas
-URL: http://wiki.mandriva.com/en/Projects/OpenLDAP_DIT
+URL: https://wiki.mandriva.com/en/Projects/OpenLDAP_DIT
 BuildRoot: %{_tmppath}/%{name}-%{version}-root-%(id -u -n)
 
 %description
